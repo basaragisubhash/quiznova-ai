@@ -8,7 +8,7 @@ import {
 } from 'recharts';
 import { TrendingUp, Target, BookOpen } from 'lucide-react';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+const API_URL = import.meta.env.VITE_API_URL || 'https://quiznova-ai-5ynt.onrender.com/api';
 
 const Analytics = () => {
   const [data, setData] = useState(null);
